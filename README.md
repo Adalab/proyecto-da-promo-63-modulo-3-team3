@@ -152,6 +152,3 @@ da-project-promo-63-modulo-3-team-3/
     Version beta finalizada
 ---
 
-## Capturas de pantalla
-
-![alt text](image.png)
