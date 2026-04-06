@@ -110,39 +110,23 @@ La última fase consistió en una presentación visual de los resultados obtenid
 ## Instrucciones de uso
 
 1. Clona el repositorio
-2. Ejecuta el archivo principal: `bbdd_musicstream.ipynb`
-3. Sigue las instrucciones en el archivo para la extracción de datos, creación de los archivos CSV, para la creacióon de la BBDD y realizar las consultas a MySQL archivo CONSULTAS_MUSICSTREAM.sql.
+2. Ejecuta el archivo principal: `limpieza_abc.ipynb`
+3. Sigue las instrucciones en el archivo .
 
 
 ---
 
 ## Estructura del repositorio
 ```
-da-project-promo-54-modulo-2-team-2/
+da-project-promo-63-modulo-3-team-3/
 
+├── data/
+│   ├── hr.csv
+│   └── empleados_limpio.csv
+├── notebooks/
+│   ├── limpieza_abc.ipynb
+│   └── visualizacion.ipynb
 ├── README.md
-│ 
-├── archivos_csv/
-│   ├── archivos_flamenco_lastfm.csv
-│   ├── artistas_indie_lastfm.csv
-│   ├── artistas_pop_lastfm.csv
-│   ├── archivos_reggaeton_lastfm.csv
-│   ├── artistas_rock_lastfm.csv
-│   ├── artistas_similares_pop.csv
-│   ├── artistas_similares_rock.csv
-│   ├── artistas_similares_unidos.csv
-│   ├── canciones_flamenco_spotify.csv
-│   ├── canciones_indie_spotify.csv
-│   ├── canciones_pop_spotify.csv
-│   ├── canciones_reggaeton_spotify.csv
-│   └── canciones_rock_spotify.csv
-│   
-│ 
-├── bbdd_musicstream.ipynb
-│  
-│ 
-├── consultas_musicstream.sql
-
 
 ```
 
@@ -152,11 +136,11 @@ da-project-promo-54-modulo-2-team-2/
 
 [Estefanía Moreno Delmo](https://github.com/fany-data)
 
-[Rosa Carolina Sanchez](https://github.com/carolsan-5)
+[Katyah Uba](https://github.com/katyakuba)
 
-[Adnana](https://github.com/ADNANAIFRIM)
+[Natalia Pozo](https://github.com/nataliapozoaraque-hash)
 
-[Marta ](https://github.com/martalm67)
+[Esther Gil](https://github.com/Esther-GIL)
 
 [Carlota](https://github.com/ezcarlota)
 
