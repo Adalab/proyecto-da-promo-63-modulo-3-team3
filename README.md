@@ -89,7 +89,7 @@ En esta fase tiene como objetivo la creación y la inserción de datos en una ba
 
 ---
 
-## Fase 5: Presentación Visual (Demo)
+## Fase 5: Presentación Visual
 
 La última fase consistió en una presentación visual de los resultados obtenidos, creada en unas diapositivas, donde se resumen los hallazgos más relevantes mediante un diagrama, tablas y visualizaciones de imagenes que facilitan la comprensión del análisis realizado.
 
