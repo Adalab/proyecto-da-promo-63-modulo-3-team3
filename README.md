@@ -85,7 +85,133 @@ Los factores más relevantes identificados han sido:
 
 ## Fase 4: Diseño de BBDD e Insercción de los Datos.
 
-En esta fase tiene como objetivo la creación y la inserción de datos en una base de datos desde el punto de vista de su arquitectura o estructura.
+# Proyecto de carga de empleados a MySQL
+
+Este proyecto toma un archivo CSV con información de empleados, lo carga en un DataFrame de pandas y lo inserta en una base de datos MySQL con una estructura relacional normalizada.
+
+## Descripción
+
+El script realiza las siguientes tareas:
+
+- Importa librerías necesarias para trabajar con MySQL y análisis de datos.
+- Carga el archivo `empleados_abc_limpio.csv`.
+- Verifica visualmente los datos con ejemplos del inicio, final y muestras aleatorias.
+- Guarda una copia del CSV como `abc_limpio_ok.csv`.
+- Se conecta a un servidor MySQL.
+- Crea un esquema para la empresa.
+- Genera varias tablas relacionadas.
+- Inserta los datos del CSV en las tablas correspondientes.
+
+## Tecnologías usadas
+
+- Python 3
+- pandas
+- numpy
+- mysql-connector-python
+- MySQL
+
+## Estructura de datos
+
+El dataset contiene información de empleados, como por ejemplo:
+
+- edad
+- abandono de la empresa (`attrition`)
+- tipo de viaje de negocios
+- departamento
+- nivel educativo
+- género
+- rol de trabajo
+- estado civil
+- ingresos mensuales
+- satisfacción laboral
+- balance vida-trabajo
+- años en la empresa
+- años con el manager actual
+
+## Archivos esperados
+
+Esquema de base de datos
+
+El código crea las siguientes tablas:
+
+1. departments
+
+Guarda los departamentos únicos de la empresa.
+
+Campos:
+
+department_id
+department_name
+2. job_roles
+
+Guarda los roles de trabajo únicos.
+
+Campos:
+
+job_role_id
+role_name
+3. employees
+
+Guarda la información básica del empleado.
+
+Campos:
+
+employee_number
+age
+gender
+marital_status
+education
+4. employee_finance_details
+
+Guarda información financiera y la relación con departamento y rol.
+
+Campos:
+
+finance_id
+employee_number
+monthly_income
+over_time
+department_id
+job_role_id
+5. employee_career_path
+
+Guarda la evolución profesional del empleado dentro de la empresa.
+
+Campos:
+
+career_path_id
+employee_number
+years_at_company
+years_in_current_role
+years_since_last_promotion
+years_with_curr_manager
+total_working_years
+6. employee_satisfaction
+
+Guarda métricas de satisfacción del empleado.
+
+Campos:
+
+survey_id
+employee_number
+environment_satisfaction
+job_satisfaction
+relationship_satisfaction
+work_life_balance
+Flujo del proceso
+1. Carga del CSV
+
+Mejoras futuras
+
+Algunas mejoras recomendables para este proyecto:
+
+usar variables de entorno para la contraseña
+separar el código en archivos .py
+añadir validaciones de datos antes de insertar
+registrar logs del proceso
+usar transacciones controladas
+crear claves únicas adicionales donde sea necesario
+documentar mejor el diccionario de datos
 
 ---
 
