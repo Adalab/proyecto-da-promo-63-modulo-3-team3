@@ -236,8 +236,8 @@ La última fase consistió en una presentación visual de los resultados obtenid
 ## Instrucciones de uso
 
 1. Clona el repositorio
-2. Ejecuta el archivo principal: `limpieza_abc.ipynb`
-3. Sigue las instrucciones en el archivo .
+2. Ejecuta los archivos.
+3. Sigue las instrucciones.
 
 
 ---
@@ -246,12 +246,12 @@ La última fase consistió en una presentación visual de los resultados obtenid
 ```
 da-project-promo-63-modulo-3-team-3/
 
-├── data/
-│   ├── hr.csv
-│   └── empleados_limpio.csv
 ├── notebooks/
-│   ├── limpieza_abc.ipynb
-│   └── visualizacion.ipynb
+│   ├── 1_limpieza_abc.ipynb
+│   ├── 2_visualizacion_abc.ipynb
+│   └── 3_estructura_abc.ipynb
+├── empleados_limpio.csv
+├── hr.csv
 ├── README.md
 
 ```
